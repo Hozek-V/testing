@@ -21,10 +21,12 @@ class TestCalculatorMethods(unittest.TestCase):
     def setUp(self):
         # Inicializácia inštancie kalkulačky pre každý test
         self.calculator = Calculator()
+    # def setUpClass(cls):
 
     def tearDown(self):
         # Vyčistenie po každom teste (ak by bolo niečo potrebné)
         pass
+    # def tearDownClass(cls):
 
     def test_add(self):
         result = self.calculator.add(3, 5)
